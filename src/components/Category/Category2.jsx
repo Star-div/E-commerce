@@ -54,7 +54,7 @@ const Category2 = () => {
                   <Button
                   text="Browse"
                   bgColor={"bg-white"}
-                  textColor={"text-brandBlue`"}
+                  textColor={"text-brandBlue"}
                   />
                 </div>
               </div>
