@@ -5,7 +5,7 @@ import {FaCaretDown} from "react-icons/fa6"
 import DarkMode from "./DarkMode";
 import { list } from "postcss";
 
-const Navbar = () => {
+const Navbar = ({handleOrderPopup}) => {
   const MenuLinks = [
     {
       id: 1,
@@ -110,7 +110,7 @@ const Navbar = () => {
             </div>
             {/* Order button section */}
             <button className="relative p-3">
-              <FaCartShopping className="text-xl text-gray-600 dark:text-gray-400" />
+              <FaCartShopping onClick={handleOrderPopup} className="text-xl text-gray-600 dark:text-gray-400" />
               <div className="p-1 w-4 h-4 bg-red-500 text-white rounded-full absolute top-0 right-0 flex items-center text-xs">
                 4
               </div>
