@@ -104,7 +104,7 @@ const Navbar = ({handleOrderPopup}) => {
           </div>
           {/* {Navbar right section} */}
           <div className="flex">
-            <div className="ssm:hidden relative group sm:block ">
+            <div className="hidden relative group sm:block ">
               <input type="text" placeholder="Search" className="search-bar" />
               <IoMdSearch className="text-xl text-gray-600 group-hover:text-primary dark:text-grey-400 absolute top-1/2 -translate-y-1/2 right-3 duration-200" />
             </div>
