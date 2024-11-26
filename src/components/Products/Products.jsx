@@ -30,14 +30,14 @@ const ProductsData=[
     img:Img3,
     title: "Goggles",
     price:"120",
-    aosDelay:"0",
+    aosDelay:"400",
   },
   {
     id:4,
     img:Img4,
     title: "Boat Headphone",
     price:"120",
-    aosDelay:"0",
+    aosDelay:"600",
   },
   
 ];
@@ -62,14 +62,14 @@ const ProductsData2=[
     img:Img7,
     title: "Goggles",
     price:"120",
-    aosDelay:"0",
+    aosDelay:"400",
   },
   {
     id:4,
     img:Img4,
     title: "Boat Headphone",
     price:"120",
-    aosDelay:"0",
+    aosDelay:"600",
   },
   
 ]
@@ -88,6 +88,6 @@ const Products = () => {
       </div>
     </div>
   )
-}
+} 
 
 export default Products
